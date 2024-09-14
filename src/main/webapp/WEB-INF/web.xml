@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>SigninServlet</display-name>
+    <servlet-name>SigninServlet</servlet-name>
+    <servlet-class>SigninServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SigninServlet</servlet-name>
+    <url-pattern>/SigninServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginPage</display-name>
+    <servlet-name>LoginPage</servlet-name>
+    <servlet-class>LoginPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginPage</servlet-name>
+    <url-pattern>/LoginPage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>src.main.java.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginServle</display-name>
+    <servlet-name>LoginServle</servlet-name>
+    <servlet-class>LoginServle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServle</servlet-name>
+    <url-pattern>/LoginServle</url-pattern>
+  </servlet-mapping>
+</web-app>

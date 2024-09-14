@@ -1,0 +1,310 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: #1f4568;
+}
+
+body {
+  background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* colors 8a3aff, 6f79ff, 3a9fff black-> 1f4568  grey->8198ae*/
+
+
+
+
+
+
+/*header Section Start*/
+
+.header {
+  padding: 30px 25px;
+}
+
+.header__elenco {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header__menu {
+  float: right;
+}
+
+.header__img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.header__title {
+  font-size: 18px;
+  margin: 0;
+  margin-left: 10px;
+  display: inline-block;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.header__light {
+  color: #8198ae;
+}
+
+/*header Section End*/
+
+
+/*Login form Start*/
+
+.sect--padding-bottom {
+  padding-bottom: 115px;
+}
+
+.sect--padding-top {
+  padding-top: 50px;
+}
+
+.sect--white {
+  /* background-color:#fff;*/
+}
+
+.row--center {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.row--margin {
+  margin-top: 45px;
+}
+
+.row__title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.row__sub {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px;
+  color: #8198ae;
+}
+
+.price-box {
+  padding: 0px 5px;
+}
+
+.price-box__wrap {
+  position: relative;
+  background-color: #d9e1ff;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+  /*0px 22px 20px -10px rgba(0, 0, 0,0.2)*/
+  padding: 35px 35px 40px 35px;
+  width: 80%;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  
+}
+
+
+
+.price-box__img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.price-box--purple .price-box__img {
+  background-image: url("https://image.ibb.co/iGjEKG/1.png");
+
+}
+
+
+.price-box--violet .price-box__img {
+  background-image: url("https://image.ibb.co/iyT8eG/2.png");
+
+}
+
+.price-box--blue .price-box__img {
+  background-image: url("https://preview.ibb.co/nDRpmw/3.png");
+
+}
+
+.price-box__title {
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.price-box__people {
+  font-size: 12px;
+  color: #8198ae;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.price-box__discount {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.price-box__dollar {
+  font-size: 18px;
+  font-weight: 400;
+  vertical-align: top;
+  margin-right: 4px;
+}
+
+.price-box--purple .price-box__dollar {
+  color: #8a3aff;
+}
+
+.price-box--violet .price-box__dollar {
+  color: #6f79ff;
+}
+
+.price-box--blue .price-box__dollar {
+  color: #3a9fff;
+}
+
+.price-box__discount--light {
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+.price-box__price {
+  margin-top: 3px;
+  font-size: 14px;
+  color: #8198ae;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  font-weight: 300;
+  text-decoration: line-through;
+}
+
+.price-box__feat {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.price-box__list {
+  text-align: left;
+  padding-left: 30px;
+  margin: 0;
+  list-style: none;
+}
+
+.price-box__list-el {
+  position: relative;
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+.price-box__list-el:before {
+  content: "✓";
+  position: absolute;
+  left: -25px;
+  font-size: 18px;
+  top: -4px;
+}
+
+.price-box--purple .price-box__list-el:before {
+  color: #8a3aff;
+}
+
+.price-box--violet .price-box__list-el:before {
+  color: #6f79ff;
+}
+
+.price-box--blue .price-box__list-el:before {
+  color: #3a9fff;
+}
+
+
+.price-box__btn {
+  margin-top: 30px;
+  /* Increased margin between password field and button */
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #3a9fff;
+  border-radius: 20px;
+  padding: 10px 25px;
+  color: #fff;
+  box-shadow: 0px 10px 5px -6px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+
+}
+
+
+
+.price-box__feat {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+
+.inputfield {
+  width: 90%;
+  /* Reduced width */
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  /* Increased bottom margin */
+  border-radius: 5px;
+  border: 1px solid #8198ae;
+}
+
+.checkbox {
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 18px;
+  height: 18px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  color: #1f4568;
+}
+
+
+
+
+.new-account {
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+
+.login-div{
+  
+}
+
+/*Login form End*/

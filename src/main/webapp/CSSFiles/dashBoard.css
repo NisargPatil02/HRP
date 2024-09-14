@@ -1,0 +1,219 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+/* Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #1f4568;
+}
+
+/* Body background */
+body {
+    background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    padding: 30px 25px;
+}
+
+.header__logo, .header__menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header__title {
+    font-size: 18px;
+    margin: 0;
+    margin-left: 10px;
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+.header__light {
+    color: #8198ae;
+}
+
+.header__link {
+    color: #1f4568;
+    font-size: 14px;
+}
+
+.header__link:hover {
+    text-decoration: none;
+    color: #3a9fff;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #8198ae;
+}
+
+
+.header__el {
+    padding: 0 25px;
+    display: inline-block;
+}
+
+.header__el--blue .btn {
+    background-color: #3a9fff;
+}
+
+.btn--white {
+    background-color: #fff;
+    border: 1px solid #ededed;
+    color: #8198ae;
+}
+
+/* Section styling */
+.sect {
+    padding: 90px 0;
+    position: relative;
+}
+
+.sect--padding-top {
+    padding-top: 90px;
+}
+
+.sect--padding-bottom {
+    padding-bottom: 115px;
+}
+
+/* Center rows */
+.row--center {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row--margin {
+    margin-top: 45px;
+}
+
+.row__title {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.row__sub {
+    font-size: 18px;
+    font-weight: 400;
+    color: #8198ae;
+}
+
+/* Pricing box styling adapted for HR details and Attendance */
+.price-box {
+    padding: 0px 25px;
+    margin-bottom: 50px;
+}
+
+.price-box__wrap {
+    background-color: #d9e1ff;;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 35px;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+.price-box__title {
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: #1f4568;
+}
+
+.price-box__list {
+    text-align: left;
+    padding-left: 20px;
+    margin: 0;
+    list-style: none;
+}
+
+.price-box__list-el {
+    position: relative;
+    margin-bottom: 8px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.price-box__list-el:before {
+    content: "✓";
+    position: absolute;
+    left: -25px;
+    font-size: 18px;
+    top: -4px;
+    color: #3a9fff;
+}
+
+.price-box__people {
+    font-size: 14px;
+    color: #8198ae;
+    font-weight: 300;
+}
+
+.price-box__img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto 20px;
+}
+
+/* Colors for HR Details and Attendance */
+.price-box--violet .price-box__title {
+    color: #3a9fff;
+}
+
+.price-box--violet .price-box__list-el:before {
+    color: #3a9fff;
+}
+
+.price-box--blue .price-box__title {
+    color: #3a9fff;
+}
+
+.price-box--blue .price-box__list-el:before {
+    color: #3a9fff;
+}
+
+.price-box__wrap:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.btn {
+    background-color: #3a9fff;
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: #fff;
+    box-shadow: 0px 18px 13px -6px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s;
+}
+
+.btn:hover {
+    box-shadow: 0px 25px 18px -6px rgba(0, 0, 0, 0.2);
+    background-color: #63b2fc;
+}
+
+/* Footer */
+.footer {
+    background-color: #1f4568;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer__light {
+    color: #fff;
+    font-size: 14px;
+}
+
+
